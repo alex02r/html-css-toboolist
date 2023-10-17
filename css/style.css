@@ -1,11 +1,11 @@
 /* import font */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
 /* Initalize css */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 /* Add background to main */
 body{
@@ -54,4 +54,66 @@ h1{
     border: 1px lightgrey solid;
     background-color: #fff;
     color: lightgray;
+}
+/* second section of main */
+.content{
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 30px 70px;
+}
+/* Remove all list style of all list */
+ul{
+    list-style: none;
+    margin-bottom: 20px;
+}
+li{
+    line-height: 2;
+}
+/* span to the left of h2 */
+.dash{
+    font-size: 12px;
+}
+/* List item check */
+.check{
+    color: lightgreen;
+    border: 1px lightgreen solid;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 2px; 
+}
+/* List item cross */
+.cross{
+    color: red;
+    border: 1px red solid;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 2px; 
+}
+/* Button of main */
+.button{
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 5px;
+    font-size: 12px;
+    color: #fff;
+}
+/* colors of button */
+.editorial{
+    background-color: deepskyblue;
+}
+.goals{
+    background-color: darkorchid;
+}
+.recruting{
+    background-color: cadetblue;
+}
+.mobile{
+    background-color: orange;
+}
+.site{
+    background-color: pink;
+}
+.sales{
+    background-color: yellowgreen;
 }
