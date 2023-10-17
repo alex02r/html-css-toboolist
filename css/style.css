@@ -43,11 +43,13 @@ h1{
 /* Button blue */
 .btn{
     padding: 7px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.blue{
     border: none;
     background-color: deepskyblue;
     color: #fff;
-    font-size: 12px;
-    border-radius: 5px;
 }
 /* Button white */
 .white{
@@ -57,7 +59,7 @@ h1{
 }
 /* second section of main */
 .content{
-    margin-top: 10px;
+    margin-top: 2px;
     background-color: #fff;
     padding: 30px 70px;
 }
@@ -68,26 +70,29 @@ ul{
 }
 li{
     line-height: 2;
+    font-weight: 500;
 }
 /* span to the left of h2 */
 .dash{
     font-size: 12px;
 }
 /* List item check */
+.id{
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 800;
+    padding: 2px 4px;
+    margin-right: 5px;
+}
 .check{
     color: lightgreen;
     border: 1px lightgreen solid;
-    border-radius: 50%;
-    font-size: 12px;
-    padding: 2px; 
 }
 /* List item cross */
 .cross{
     color: red;
     border: 1px red solid;
-    border-radius: 50%;
-    font-size: 12px;
-    padding: 2px; 
 }
 /* Button of main */
 .button{
